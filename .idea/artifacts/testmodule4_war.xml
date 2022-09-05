@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="testmodule4:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>testmodule4</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ajax-maven-bank-customers-locationRegion.war">
+      <element id="artifact" artifact-name="testmodule4:war exploded" />
+    </root>
+  </artifact>
+</component>
